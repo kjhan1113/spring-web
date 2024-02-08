@@ -12,3 +12,5 @@
 - ctrl + alt + L : reformat file
 - ctrl + shift + T : create testcase class
 - ctrl + shift + enter: move to next line
+- ctrl + alt + V: extract variable
+- ctrl + alt + M: extract method
