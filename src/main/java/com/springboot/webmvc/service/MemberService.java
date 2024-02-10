@@ -3,6 +3,8 @@ package com.springboot.webmvc.service;
 import com.springboot.webmvc.domain.Member;
 import com.springboot.webmvc.repository.MemberRepository;
 import com.springboot.webmvc.repository.MemoryMemberRepository;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;
@@ -11,6 +13,7 @@ import java.util.function.Consumer;
 public class MemberService {
     private final MemberRepository memberRepository;
 
+    @Autowired
     public MemberService(MemberRepository memberRepository) {
         this.memberRepository = memberRepository;
     }

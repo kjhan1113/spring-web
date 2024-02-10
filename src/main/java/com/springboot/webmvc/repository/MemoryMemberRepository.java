@@ -1,6 +1,7 @@
 package com.springboot.webmvc.repository;
 
 import com.springboot.webmvc.domain.Member;
+import org.springframework.stereotype.Repository;
 
 import java.util.*;
 
