@@ -1,24 +1,10 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout" layout:decorate="mainpage">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-
 </head>
 <body>
-    <div layout:fragment="content">
-        <div class="div-body">
-            <form class="form-member-add" action="/members/register" method="post">
-                <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
 
-                <div class="form-floating mb-3">
-                    <input type="name" class="form-control" id="name" name="name" placeholder="username">
-                    <label for="name">User Name</label>
-                </div>
-
-                <button class="w-100 btn btn-lg btn-primary" type="submit">Sign in</button>
-            </form>
-        </div>
-    </div>
 </body>
 </html>
