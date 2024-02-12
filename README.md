@@ -3,7 +3,7 @@
 ### Project
 - Spring 3.2.2
 - Thymeleaf
-
+- H2 DB
 
 ### Intelli J ShortCut
 - alt + insert : insert functions

@@ -20,8 +20,8 @@ public class MemberService {
 
     public Long registerMember(Member member) {
         checkingDuplicatedMember(member);
-        memberRepository.addMember(member);
-        return member.getId();
+        Member result = memberRepository.addMember(member);
+        return result.getId();
     }
 
     private void checkingDuplicatedMember(Member member) {
