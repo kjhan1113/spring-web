@@ -5,6 +5,7 @@ import com.springboot.webmvc.repository.MemberRepository;
 import com.springboot.webmvc.repository.MemoryMemberRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 import java.util.Optional;
@@ -19,7 +20,7 @@ public class MemberService {
     }
 
     public Long registerMember(Member member) {
-        checkingDuplicatedMember(member);
+//        checkingDuplicatedMember(member);
         Member result = memberRepository.addMember(member);
         return result.getId();
     }

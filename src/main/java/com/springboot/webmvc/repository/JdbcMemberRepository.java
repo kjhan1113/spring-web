@@ -57,8 +57,6 @@ public class JdbcMemberRepository implements MemberRepository{
         PreparedStatement pstmt = null;
         ResultSet rs = null;
 
-        System.out.println("----------------------+++++++++"+member.toString());
-
         try {
             conn = dataSource.getConnection();
             pstmt = conn.prepareStatement(sql, Statement.RETURN_GENERATED_KEYS);

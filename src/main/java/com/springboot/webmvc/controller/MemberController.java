@@ -19,7 +19,6 @@ public class MemberController {
         this.memberService = memberService;
     }
 
-
     @GetMapping("/members/list")
     public String MembershipList(Model model) {
         List<Member> allMembers = memberService.findAllMembers();

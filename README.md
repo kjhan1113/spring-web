@@ -2,8 +2,9 @@
 
 ### Project
 - Spring 3.2.2
+- JPA
 - Thymeleaf
-- H2 DB
+- MySQL
 
 ### Intelli J ShortCut
 - alt + insert : insert functions
